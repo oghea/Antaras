@@ -1,0 +1,28 @@
+$bg-color: #fff;
+
+.about-section{
+	background: $bg-color;
+	padding: $sec-padding;
+}
+
+.about-brand{
+	margin-bottom: 10%;
+	p{
+		font-size: 20px;
+	}
+}
+.desc-about{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: $p-color-vs-white;
+}
+.row-about{
+	margin-bottom: 10%;
+	@include breakpoint($xs){
+		margin-bottom: 0;
+	}
+}
+.icon-about{
+	color: $icon-color;
+}
+

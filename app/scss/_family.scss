@@ -1,0 +1,45 @@
+$fbg-color: #eeeef3;
+.family-section{
+	background: $fbg-color;
+	padding: $sec-padding;
+}
+
+.img-family{
+	img{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	position: relative;
+	display: table;
+	@include breakpoint($xs){
+		display: none;
+	}
+	}
+}
+
+.readmore{
+	background-image: linear-gradient(to bottom,$icon-color 0,$icon-color 60%);
+	&:hover{
+		background-position: 0 -6px;
+	}
+}
+
+.more{
+	button{
+		@include breakpoint($xs){
+		display: none;
+		}
+	}
+	i{
+		color: $icon-color;
+		@include breakpoint($md){
+		display: none;
+		}
+		@include breakpoint($sm){
+		display: none;
+		}
+		@include breakpoint($lg){
+		display: none;
+		}
+	}
+}

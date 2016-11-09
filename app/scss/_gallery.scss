@@ -1,0 +1,18 @@
+$gbg-color: #fff;
+@import 'img-hover-bootstrap';
+
+.gallery-section{
+	background: $gbg-color;
+	padding: $sec-padding;
+}
+
+.row-gallery{
+	padding: 15px;
+}
+
+.hovereffect{
+	img{
+		height: 250px;
+		width: 350px;
+	}
+}

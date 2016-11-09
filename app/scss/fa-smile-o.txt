@@ -1,0 +1,6 @@
+fa-smile-o
+fa-clock-o
+fa-mobile
+fa-gamepad
+fa-graduation-cap
+fa-globe

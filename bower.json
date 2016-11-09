@@ -1,0 +1,24 @@
+{
+  "name": "AntarasProject",
+  "authors": [
+    "Prayoga Antaras"
+  ],
+  "description": "ProjectFamily",
+  "main": "css,js,html,scss",
+  "keywords": [
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "antaras.id",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "breakpoint-sass": "^2.7.0"
+  }
+}

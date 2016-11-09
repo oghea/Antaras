@@ -1,0 +1,25 @@
+$cbg-color: #eeeef3;
+.contact-section{
+	background: $cbg-color;
+	padding: $sec-padding;
+}
+
+.sosmed{
+	color: $icon-color;
+	margin: 0 35%;
+	@include breakpoint($xs){
+		margin: 0 10%;
+	}
+}
+.contact-brand{
+	margin-bottom: 5%;
+}
+
+.footer-logo{
+	font-family: 'Bungee Hairline', cursive;
+	color: $icon-color;
+}
+
+.footer-img{
+	color: $icon-color;
+}

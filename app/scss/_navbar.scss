@@ -1,0 +1,52 @@
+$nav-color: #ffb3b3;
+$nav-hover: #ffca00;
+$fontsizenormal: 36px;
+$fontsizexs: 20px;
+
+// Navbar
+.icon-bar {
+    height: 100%;
+    width: 90px;
+    text-align: center;
+    position: fixed;
+
+}
+.nav-left-well{
+    top: 20%;
+    position: absolute;
+}
+.icon-bar a {
+    padding: 16px;
+    display: block;
+    transition: all 0.3s ease;
+    color: $nav-color;
+    font-size: $fontsizenormal;
+    @include breakpoint($xs){
+    font-size: $fontsizexs;
+    }
+}
+.icon-bar a i:hover {
+    color: $ras-color;
+    position: relative;
+}
+.active {
+    i{
+    color: $ras-color;
+    position: relative;
+    }
+}
+.timelineBar {
+    width: 2px;
+    background-color: $nav-color;
+    display: inline-block;
+    position: absolute;
+    left: 33%;
+    top: 10%;
+    bottom: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    @include breakpoint($xs){
+        left: 28%;
+    }
+}
+
