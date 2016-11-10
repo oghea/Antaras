@@ -1,0 +1,69 @@
+.resume-about{
+	padding: $sec-padding;
+}
+
+.icon-timeline{
+	display: block;
+    width: 32px;
+    height: 24px;
+    position: relative;
+    left: 43%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+	font-size: 24px;
+	color: #fff;
+}
+
+// #cd-timeline{
+// 	@include breakpoint($md){
+//     	margin-top: 6rem;
+//     }
+//     @include breakpoint($lg){
+//     	margin-top: 6rem;
+//     }
+// }
+#cd-timeline{
+	margin: 0;
+}
+
+.cd-timeline-content{
+	h4{
+		font-weight: 600;
+		color: #303e49;
+	}
+}
+.cd-container{
+	width: 100%;
+}
+
+.resume-brand{
+	margin-bottom: 3%;
+}
+
+.desc-about-resume{
+	margin: 5%;
+	.ident{
+		border-bottom: 3px double $icon-color;
+	}
+}
+
+.profile{
+	width: 40%;
+	@include breakpoint($xs){
+    	display: none;
+    }
+    @include breakpoint($sm){
+    	display: none;
+    }
+}
+.mobile-resume-about{
+	@include breakpoint($xs){
+    	margin-bottom: 15%;
+    }
+}
+.profile{
+	img{
+		border: none;
+	}
+}

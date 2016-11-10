@@ -1,0 +1,62 @@
+.resume-intro{
+	background: url(../img/banner.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: $nc-padding;
+}
+
+.job{
+	color: $icon-color;
+	letter-spacing: 4px;
+}
+.nama{
+	letter-spacing: 2px;
+}
+
+.quot{
+	padding-top: 2%;
+	letter-spacing: 3px;
+}
+.foto-resume{
+	width: 20%;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	padding-top: 5%;
+	img{
+		border: 7px solid $icon-color;
+		@include breakpoint($xs){
+    	border: 3px solid $icon-color;
+    	}
+	}
+}
+.resume-med{
+	padding-top: 5%;
+	text-align: center;
+	a {
+	
+	color: #fff;
+		&:hover{
+			color: #fff;
+		}
+	}
+	margin: 0 25%;
+	@include breakpoint($xs){
+    	margin: 0 5%;
+    	}
+    @include breakpoint($xxs){
+    	margin: 0;
+    }
+}
+.sos{
+	width: 36px;
+	height: 36px;
+	font-size: 18px;
+	border: 2px solid #fff;
+	line-height: 31px;
+	&:hover{
+		color: $icon-color;
+	}
+}
